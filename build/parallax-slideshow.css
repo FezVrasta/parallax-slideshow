@@ -1,0 +1,62 @@
+.parallax-slideshow {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: #E10019;
+  overflow: hidden;
+}
+.parallax-slideshow__block,
+.parallax-slideshow__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.parallax-slideshow__img {
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+.parallax-slideshow__block {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out 0.5s;
+  pointer-events: none;
+}
+.parallax-slideshow__block--active {
+  opacity: 1;
+  transition-delay: 0s;
+  pointer-events: all;
+}
+.parallax-slideshow__nav {
+  list-style: none;
+  position: absolute;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.parallax-slideshow__nav-link {
+  display: inline-block;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  background: #ABA69E;
+  border-radius: 100%;
+  transition: background 0.5s ease;
+  border: 2px solid transparent;
+}
+.parallax-slideshow__nav-link--active {
+  background: transparent;
+  border-color: #655C54;
+  cursor: default;
+}
