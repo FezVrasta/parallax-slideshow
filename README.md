@@ -31,7 +31,7 @@ Then, to destroy the slideshow and unbind all its events:
 
 # Options
 
-- `rateo`: Define the aspect rateo of the images showed in the slideshow (eg. 0.5 = 100px width and 500px height);
+- `rateo`: Define the aspect rateo of the images showed in the slideshow (eg. 0.5 = 1000px width and 500px height);
 - `block`: The list of blocks (set of images) which will be showed in the slideshow. Each block is composed by different
   layers, each layer can be an image, or an HTML element;
 - `parallaxOptions`: Refer to [Parallax.js documentation](https://github.com/wagerfield) to customize the behavior of
