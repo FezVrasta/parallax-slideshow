@@ -48,4 +48,4 @@ Then, to destroy the slideshow and unbind all its events:
 In order to use this plugin, the following dependencies must be included before ParallaxSlideshow:
 
 - [jQuery](https://jquery.com)
-- [Parallax.js]((https://github.com/wagerfield))
+- [Parallax.js](https://github.com/wagerfield)
