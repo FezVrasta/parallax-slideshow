@@ -23,5 +23,9 @@
     "grunt-contrib-uglify": "^1.0.0",
     "less-plugin-autoprefix": "^1.5.1",
     "less-plugin-clean-css": "^1.5.1"
+  },
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "parallax": "git@github.com:wagerfield/parallax.git"
   }
 }

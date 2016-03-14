@@ -43,3 +43,9 @@ Then, to destroy the slideshow and unbind all its events:
 - `element`: Assign a jQuery element to this property if you want to show such element in this layer
 - `depth`: The depth of a layer within a parallax scene
 
+# Requirements
+
+In order to use this plugin, the following dependencies must be included before ParallaxSlideshow:
+
+- [jQuery](https://jquery.com)
+- [Parallax.js]((https://github.com/wagerfield))
